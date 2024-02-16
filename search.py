@@ -164,7 +164,7 @@ def nullHeuristic(state, problem=None):
 
 def aStarSearch(problem, heuristic=nullHeuristic):
     """Search the node that has the lowest combined cost and heuristic first."""
-    ff
+    "*** YOUR CODE HERE ***"
     visited = []
     init_state = problem.getStartState()
     pred = {init_state: (None, None, 0)}
